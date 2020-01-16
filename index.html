@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src = 'main.js'></script>
 </head>
 <body>
-    
+    <form onsubmit="return getParam();">
+        <input type="number" id='firstNumber'>
+        <input type="number" id='secondNumber'>
+        <button type="submit" >Send</button>
+    </form>
+    <div id='content'></div>
+    <script src = 'main.js'></script>
 </body>
 </html>
